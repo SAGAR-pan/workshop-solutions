@@ -1,0 +1,49 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+.menu {
+	width: 80%;
+	margin: 40px auto;
+	background-color: #f0f0f0;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+}
+
+.menu-item:last-child {
+	border-bottom: none;
+}
+
+.image {
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+	margin-right: 20px;
+}
+
+.item-description {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.price {
+	font-weight: bold;
+	color: #666;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+h2 {
+	margin-top: 0;
+}
